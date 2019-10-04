@@ -1,3 +1,19 @@
+# Contributing
+
+## Run the app locally
+
+This command will start the webpack and serve the app on [localhost:3000](http://localhost:3000/).
+
+```
+npm run start
+```
+
+## Run the tests
+
+```
+npm run test
+```
+
 # Front-end Developer Assessment
 
 Thank you for taking the time to conduct the CarNext assessment for front-end developers. The purpose of which is to give us insight in your technical abilities, development approach and general technical working habits.
