@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 
 import Header from "./components/Header";
 import Form from "./components/Form";
@@ -40,7 +40,7 @@ const Paragraph = styled.p`
   line-height: 1.5;
 `;
 
-export const App: FC = () => (
+export default () => (
   <Page>
     <Header />
     <Main>
