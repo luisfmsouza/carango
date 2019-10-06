@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders the App component 1`] = `
+<div
+  className="sc-VigVT cVEKMV"
+>
+  <header
+    className="sc-bdVaJa blMrvh"
+  >
+    <a
+      href="#"
+    >
+      <img
+        alt="CarNext logo"
+        className="sc-bwzfXH hqJQNA"
+        src="car-next-logo.png"
+        title="CarNext logo"
+      />
+    </a>
+  </header>
+  <div
+    className="sc-jTzLTM JpSzt"
+  >
+    <section
+      className="sc-fjdhpX nsimD"
+    >
+      <h1
+        className="sc-jzJRlG iUwjYv"
+      >
+        Get a free year of driving!
+      </h1>
+      <p
+        className="sc-cSHVUG dmNwFQ"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat eros, finibus ac ullamcorper sit amet, tempus quis lacus. Quisque eleifend semper pretium. Sed rutrum odio lectus, id maximus nunc rhoncus sed. Praesent quis suscipit dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer orci dui, rutrum eu feugiat lobortis, tristique sollicitudin est. Nulla tincidunt semper nibh at pulvinar. Etiam tempor quam vitae neque ornare efficitur. Morbi id egestas est, at viverra orci. Fusce eleifend placerat ligula, eget viverra lectus facilisis vitae. Praesent placerat tortor a mi laoreet, quis lobortis nunc eleifend.
+      </p>
+    </section>
+    <section
+      className="sc-fjdhpX nsimD"
+    >
+      <h1
+        className="sc-jzJRlG iUwjYv"
+      >
+        Get a car leasing offer
+      </h1>
+      <p
+        className="sc-cSHVUG dmNwFQ"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat eros, finibus ac ullamcorper sit amet, tempus quis lacus.
+      </p>
+      <form
+        className="sc-htpNat KtFsv"
+      >
+        <div
+          className="sc-bxivhb cSLsnY"
+        >
+          <div
+            className="sc-ifAKCX jpecgC"
+          >
+            <label
+              className="sc-EHOje bPSVmV"
+              htmlFor="form--first-name"
+            >
+              First name
+            </label>
+            <input
+              className="sc-bZQynM kbmjkK"
+              id="form--first-name"
+              placeholder="Enter first name"
+              type="text"
+            />
+          </div>
+          <div
+            className="sc-ifAKCX jpecgC"
+          >
+            <label
+              className="sc-EHOje bPSVmV"
+              htmlFor="form--surname"
+            >
+              Surname
+            </label>
+            <input
+              className="sc-bZQynM kbmjkK"
+              id="form--surname"
+              placeholder="Enter surname"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className="sc-ifAKCX jpecgC"
+        >
+          <label
+            className="sc-EHOje bPSVmV"
+            htmlFor="form--email"
+          >
+            Email address
+          </label>
+          <input
+            className="sc-bZQynM kbmjkK"
+            id="form--email"
+            placeholder="Enter your email address"
+            type="email"
+          />
+        </div>
+        <div
+          className="sc-ifAKCX jpecgC"
+        >
+          <label
+            className="sc-EHOje bPSVmV"
+            htmlFor="form--phone"
+          >
+            Phone number
+          </label>
+          <input
+            className="sc-bZQynM kbmjkK"
+            id="form--phone"
+            placeholder="Enter your phone number"
+            type="tel"
+          />
+        </div>
+        <div
+          className="sc-ifAKCX jpecgC"
+        >
+          <label
+            className="sc-EHOje bPSVmV"
+            htmlFor="form--voucher"
+          >
+            Voucher code
+          </label>
+          <input
+            className="sc-bZQynM kbmjkK"
+            id="form--voucher"
+            placeholder="Enter your voucher code"
+            type="number"
+          />
+        </div>
+        <div
+          className="sc-ifAKCX jpecgC"
+        >
+          <input
+            className="sc-htoDjs jtEFYT"
+            id="form--policy"
+            type="checkbox"
+          />
+          <span
+            className="sc-dnqmqq ekAjtq"
+          />
+          <label
+            className="sc-gzVnrw hNTdaM"
+            htmlFor="form--policy"
+          >
+            Accept Privacy Settlement
+          </label>
+        </div>
+        <button
+          className="sc-iwsKbI dWNEbR"
+          type="submit"
+        >
+          <span
+            className="sc-gZMcBi dKOCRF"
+          >
+            Get Offer
+          </span>
+          <svg
+            className="sc-gqjmRU fPOneR"
+          >
+            arrow-right.svg
+          </svg>
+        </button>
+      </form>
+    </section>
+  </div>
+</div>
+`;

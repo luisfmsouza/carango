@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders the header component 1`] = `
+<header
+  className="sc-bdVaJa blMrvh"
+>
+  <a
+    href="#"
+  >
+    <img
+      alt="CarNext logo"
+      className="sc-bwzfXH hqJQNA"
+      src="car-next-logo.png"
+      title="CarNext logo"
+    />
+  </a>
+</header>
+`;

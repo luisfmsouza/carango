@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders the Form component 1`] = `
+<form
+  className="sc-bdVaJa bDWFJH"
+>
+  <div
+    className="sc-bwzfXH dckAAz"
+  >
+    <div
+      className="sc-htpNat eRDnou"
+    >
+      <label
+        className="sc-bxivhb fIIgFs"
+        htmlFor="form--first-name"
+      >
+        First name
+      </label>
+      <input
+        className="sc-ifAKCX dpAXfW"
+        id="form--first-name"
+        placeholder="Enter first name"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-htpNat eRDnou"
+    >
+      <label
+        className="sc-bxivhb fIIgFs"
+        htmlFor="form--surname"
+      >
+        Surname
+      </label>
+      <input
+        className="sc-ifAKCX dpAXfW"
+        id="form--surname"
+        placeholder="Enter surname"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-htpNat eRDnou"
+  >
+    <label
+      className="sc-bxivhb fIIgFs"
+      htmlFor="form--email"
+    >
+      Email address
+    </label>
+    <input
+      className="sc-ifAKCX dpAXfW"
+      id="form--email"
+      placeholder="Enter your email address"
+      type="email"
+    />
+  </div>
+  <div
+    className="sc-htpNat eRDnou"
+  >
+    <label
+      className="sc-bxivhb fIIgFs"
+      htmlFor="form--phone"
+    >
+      Phone number
+    </label>
+    <input
+      className="sc-ifAKCX dpAXfW"
+      id="form--phone"
+      placeholder="Enter your phone number"
+      type="tel"
+    />
+  </div>
+  <div
+    className="sc-htpNat eRDnou"
+  >
+    <label
+      className="sc-bxivhb fIIgFs"
+      htmlFor="form--voucher"
+    >
+      Voucher code
+    </label>
+    <input
+      className="sc-ifAKCX dpAXfW"
+      id="form--voucher"
+      placeholder="Enter your voucher code"
+      type="number"
+    />
+  </div>
+  <div
+    className="sc-htpNat eRDnou"
+  >
+    <input
+      className="sc-bZQynM kALtEP"
+      id="form--policy"
+      type="checkbox"
+    />
+    <span
+      className="sc-gzVnrw hKhOVd"
+    />
+    <label
+      className="sc-EHOje bVYRv"
+      htmlFor="form--policy"
+    >
+      Accept Privacy Settlement
+    </label>
+  </div>
+  <button
+    className="sc-htoDjs fGfYlb"
+    type="submit"
+  >
+    <span
+      className="sc-dnqmqq gsssWt"
+    >
+      Get Offer
+    </span>
+    <svg
+      className="sc-iwsKbI fmqsvu"
+    >
+      arrow-right.svg
+    </svg>
+  </button>
+</form>
+`;
