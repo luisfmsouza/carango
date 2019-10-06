@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 import { ReactComponent as IconRight } from "../assets/icons/arrow-right.svg";
 
-import logo from "../assets/images/car-next-logo.png";
 import colors from "../theme/colors";
 
 const Form = styled.form``;
