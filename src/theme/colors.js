@@ -8,5 +8,8 @@ export default {
   grey30: "#bbbcbc",
   orange10: "#ed8a00",
   orange20: "#ed4d13",
+  red10: "#fef4f4",
+  red20: "#fbdcd5",
+  red30: "#e7401e",
   white: "#fff"
 };

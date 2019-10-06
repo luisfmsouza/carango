@@ -136,32 +136,60 @@ exports[`PromotionScreen renders the PromotionScreen default component 1`] = `
             className="sc-dnqmqq hlbUkZ"
           >
             <label
-              className="sc-iwsKbI dOiXxC"
+              className="sc-iwsKbI kbuyjz"
               htmlFor="form--first-name"
             >
               First name
             </label>
-            <input
-              className="sc-gZMcBi gJdFSv"
-              id="form--first-name"
-              placeholder="Enter first name"
-              type="text"
-            />
+            <div
+              className="sc-gZMcBi bhhUJE"
+            >
+              <input
+                className="sc-gqjmRU hRtAuY"
+                id="form--first-name"
+                placeholder="Enter first name"
+                type="text"
+              />
+            </div>
           </div>
           <div
             className="sc-dnqmqq hlbUkZ"
           >
             <label
-              className="sc-iwsKbI dOiXxC"
+              className="sc-iwsKbI kbuyjz"
               htmlFor="form--surname"
             >
               Surname
             </label>
+            <div
+              className="sc-gZMcBi bhhUJE"
+            >
+              <input
+                className="sc-gqjmRU hRtAuY"
+                id="form--surname"
+                placeholder="Enter surname"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-dnqmqq hlbUkZ"
+        >
+          <label
+            className="sc-iwsKbI kbuyjz"
+            htmlFor="form--email"
+          >
+            Email address
+          </label>
+          <div
+            className="sc-gZMcBi bhhUJE"
+          >
             <input
-              className="sc-gZMcBi gJdFSv"
-              id="form--surname"
-              placeholder="Enter surname"
-              type="text"
+              className="sc-gqjmRU hRtAuY"
+              id="form--email"
+              placeholder="Enter your email address"
+              type="email"
             />
           </div>
         </div>
@@ -169,79 +197,71 @@ exports[`PromotionScreen renders the PromotionScreen default component 1`] = `
           className="sc-dnqmqq hlbUkZ"
         >
           <label
-            className="sc-iwsKbI dOiXxC"
-            htmlFor="form--email"
-          >
-            Email address
-          </label>
-          <input
-            className="sc-gZMcBi gJdFSv"
-            id="form--email"
-            placeholder="Enter your email address"
-            type="email"
-          />
-        </div>
-        <div
-          className="sc-dnqmqq hlbUkZ"
-        >
-          <label
-            className="sc-iwsKbI dOiXxC"
+            className="sc-iwsKbI kbuyjz"
             htmlFor="form--phone"
           >
             Phone number
           </label>
-          <input
-            className="sc-gZMcBi gJdFSv"
-            id="form--phone"
-            placeholder="Enter your phone number"
-            type="tel"
-          />
+          <div
+            className="sc-gZMcBi bhhUJE"
+          >
+            <input
+              className="sc-gqjmRU hRtAuY"
+              id="form--phone"
+              placeholder="Enter your phone number"
+              type="tel"
+            />
+          </div>
         </div>
         <div
           className="sc-dnqmqq hlbUkZ"
         >
           <label
-            className="sc-iwsKbI dOiXxC"
+            className="sc-iwsKbI kbuyjz"
             htmlFor="form--voucher"
           >
             Voucher code
           </label>
-          <input
-            className="sc-gZMcBi gJdFSv"
-            id="form--voucher"
-            placeholder="Enter your voucher code"
-            type="number"
-          />
+          <div
+            className="sc-gZMcBi bhhUJE"
+          >
+            <input
+              className="sc-gqjmRU hRtAuY"
+              id="form--voucher"
+              placeholder="Enter your voucher code"
+              type="number"
+            />
+          </div>
         </div>
         <div
           className="sc-dnqmqq hlbUkZ"
         >
           <input
-            className="sc-VigVT juvwGh"
+            className="sc-fjdhpX kJgCnb"
             id="form--policy"
             type="checkbox"
           />
           <span
-            className="sc-jTzLTM dnRskf"
+            className="sc-jzJRlG GGIdP"
           />
           <label
-            className="sc-gqjmRU lbtNyB"
+            className="sc-jTzLTM gKYNux"
             htmlFor="form--policy"
           >
             Accept Privacy Settlement
           </label>
         </div>
         <button
-          className="sc-fjdhpX cuAGuH"
+          className="sc-cSHVUG dIvqRq"
           type="submit"
         >
           <span
-            className="sc-jzJRlG iqolyC"
+            className="sc-kAzzGY kznQjq"
           >
             Get Offer
           </span>
           <svg
-            className="sc-cSHVUG hVuVMI"
+            className="sc-chPdSV bKZpZU"
           >
             arrow-right.svg
           </svg>
