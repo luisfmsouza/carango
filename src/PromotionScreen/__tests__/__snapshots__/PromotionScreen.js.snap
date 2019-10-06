@@ -1,6 +1,84 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders the App component 1`] = `
+exports[`PromotionScreen renders the PromotionScreen component when lose the prize 1`] = `
+<div
+  className="sc-htpNat lftjIv"
+>
+  <header
+    className="sc-bdVaJa blMrvh"
+  >
+    <a
+      href="#"
+    >
+      <img
+        alt="CarNext logo"
+        className="sc-bwzfXH hqJQNA"
+        src="car-next-logo.png"
+        title="CarNext logo"
+      />
+    </a>
+  </header>
+  <div
+    className="sc-bxivhb hdqdbk"
+  >
+    <section
+      className="sc-ifAKCX cFlEyZ"
+    >
+      <h1
+        className="sc-EHOje fvXwPD"
+      >
+        Better luck next time!
+      </h1>
+      <p
+        className="sc-bZQynM GNZEL"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat eros, finibus ac ullamcorper sit amet, tempus quis lacus. Quisque eleifend semper pretium.
+      </p>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`PromotionScreen renders the PromotionScreen component when win the prize 1`] = `
+<div
+  className="sc-htpNat lftjIv"
+>
+  <header
+    className="sc-bdVaJa blMrvh"
+  >
+    <a
+      href="#"
+    >
+      <img
+        alt="CarNext logo"
+        className="sc-bwzfXH hqJQNA"
+        src="car-next-logo.png"
+        title="CarNext logo"
+      />
+    </a>
+  </header>
+  <div
+    className="sc-bxivhb hdqdbk"
+  >
+    <section
+      className="sc-ifAKCX cFlEyZ"
+    >
+      <h1
+        className="sc-EHOje fvXwPD"
+      >
+        Congratulations, you won!
+      </h1>
+      <p
+        className="sc-bZQynM GNZEL"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat eros, finibus ac ullamcorper sit amet, tempus quis lacus. Quisque eleifend semper pretium.
+      </p>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`PromotionScreen renders the PromotionScreen default component 1`] = `
 <div
   className="sc-htpNat lftjIv"
 >
