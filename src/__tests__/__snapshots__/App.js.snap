@@ -49,141 +49,159 @@ exports[`App renders the App component 1`] = `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat eros, finibus ac ullamcorper sit amet, tempus quis lacus.
       </p>
       <form
-        className="sc-gzVnrw ibZhkv"
+        onSubmit={[Function]}
       >
         <div
-          className="sc-htoDjs hZvHaw"
+          className="sc-gzVnrw ipJtJo"
         >
           <div
-            className="sc-dnqmqq hlbUkZ"
+            className="sc-htoDjs eYQFUo"
           >
             <label
-              className="sc-iwsKbI kbuyjz"
-              htmlFor="form--first-name"
+              className="sc-dnqmqq dmpbsQ"
+              htmlFor="firstName"
             >
               First name
             </label>
             <div
-              className="sc-gZMcBi bhhUJE"
+              className="sc-iwsKbI jXLLop"
             >
               <input
-                className="sc-gqjmRU hRtAuY"
-                id="form--first-name"
+                className="sc-gZMcBi eVAzlW"
+                id="firstName"
+                onBlur={[Function]}
+                onChange={[Function]}
                 placeholder="Enter first name"
                 type="text"
+                value="Luis"
               />
             </div>
           </div>
           <div
-            className="sc-dnqmqq hlbUkZ"
+            className="sc-htoDjs eYQFUo"
           >
             <label
-              className="sc-iwsKbI kbuyjz"
-              htmlFor="form--surname"
+              className="sc-dnqmqq dmpbsQ"
+              htmlFor="surname"
             >
               Surname
             </label>
             <div
-              className="sc-gZMcBi bhhUJE"
+              className="sc-iwsKbI jXLLop"
             >
               <input
-                className="sc-gqjmRU hRtAuY"
-                id="form--surname"
+                className="sc-gZMcBi eVAzlW"
+                id="surname"
+                onBlur={[Function]}
+                onChange={[Function]}
                 placeholder="Enter surname"
                 type="text"
+                value="Souza"
               />
             </div>
           </div>
         </div>
         <div
-          className="sc-dnqmqq hlbUkZ"
+          className="sc-htoDjs eYQFUo"
         >
           <label
-            className="sc-iwsKbI kbuyjz"
-            htmlFor="form--email"
+            className="sc-dnqmqq dmpbsQ"
+            htmlFor="email"
           >
             Email address
           </label>
           <div
-            className="sc-gZMcBi bhhUJE"
+            className="sc-iwsKbI jXLLop"
           >
             <input
-              className="sc-gqjmRU hRtAuY"
-              id="form--email"
+              className="sc-gZMcBi eVAzlW"
+              id="email"
+              onBlur={[Function]}
+              onChange={[Function]}
               placeholder="Enter your email address"
               type="email"
+              value="lu@g.com"
             />
           </div>
         </div>
         <div
-          className="sc-dnqmqq hlbUkZ"
+          className="sc-htoDjs eYQFUo"
         >
           <label
-            className="sc-iwsKbI kbuyjz"
-            htmlFor="form--phone"
+            className="sc-dnqmqq dmpbsQ"
+            htmlFor="phoneNumber"
           >
             Phone number
           </label>
           <div
-            className="sc-gZMcBi bhhUJE"
+            className="sc-iwsKbI jXLLop"
           >
             <input
-              className="sc-gqjmRU hRtAuY"
-              id="form--phone"
+              className="sc-gZMcBi eVAzlW"
+              id="phoneNumber"
+              onBlur={[Function]}
+              onChange={[Function]}
               placeholder="Enter your phone number"
               type="tel"
+              value="+5519992166464"
             />
           </div>
         </div>
         <div
-          className="sc-dnqmqq hlbUkZ"
+          className="sc-htoDjs eYQFUo"
         >
           <label
-            className="sc-iwsKbI kbuyjz"
-            htmlFor="form--voucher"
+            className="sc-dnqmqq dmpbsQ"
+            htmlFor="voucherCode"
           >
             Voucher code
           </label>
           <div
-            className="sc-gZMcBi bhhUJE"
+            className="sc-iwsKbI jXLLop"
           >
             <input
-              className="sc-gqjmRU hRtAuY"
-              id="form--voucher"
+              className="sc-gZMcBi eVAzlW"
+              id="voucherCode"
+              onBlur={[Function]}
+              onChange={[Function]}
               placeholder="Enter your voucher code"
               type="number"
+              value="782863973"
             />
           </div>
         </div>
         <div
-          className="sc-dnqmqq hlbUkZ"
+          className="sc-htoDjs eYQFUo"
         >
           <input
-            className="sc-fjdhpX kJgCnb"
-            id="form--policy"
+            checked={true}
+            className="sc-jTzLTM dEjMcT"
+            id="acceptPrivacy"
+            onChange={[Function]}
             type="checkbox"
           />
           <span
-            className="sc-jzJRlG GGIdP"
+            className="sc-fjdhpX bPkZvL"
           />
           <label
-            className="sc-jTzLTM gKYNux"
-            htmlFor="form--policy"
+            className="sc-VigVT gZbLvf"
+            htmlFor="acceptPrivacy"
           >
             Accept Privacy Settlement
           </label>
         </div>
         <button
-          className="sc-cSHVUG dIvqRq"
+          className="sc-jzJRlG fXutx"
+          disabled={false}
           type="submit"
         >
           <span
-            className="sc-kAzzGY kznQjq"
+            className="sc-cSHVUG dpTofC"
           >
             Get Offer
           </span>
           <svg
-            className="sc-chPdSV bKZpZU"
+            className="sc-kAzzGY jmHSDm"
           >
             arrow-right.svg
           </svg>

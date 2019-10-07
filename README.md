@@ -1,5 +1,9 @@
 # Contributing
 
+## Generate voucher codes 🍀
+
+Take a look [here](./src/promotion-codes).
+
 ## Run the app locally
 
 This command will start the webpack and serve the app on [localhost:3000](http://localhost:3000/).
@@ -21,6 +25,12 @@ npm run api
 ```
 npm run test
 ```
+
+# Tech decisions
+
+## Why concetrate the logic on App.js?
+
+Specially to preserve the [flux architecture](https://facebook.github.io/flux/), also all other app components should be as dumb as possible, in order to make testing an easy task. A future refactor would be removing this logic from App.js and put it on a flux container (like Redux, for example).
 
 # Front-end Developer Assessment
 
