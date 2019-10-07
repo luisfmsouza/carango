@@ -27,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --setupTestFrameworkScriptFile=raf/polyfill",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "api": "json-server --watch api/db.json --port 3004"
   },
   "browserslist": [
     ">0.2%",

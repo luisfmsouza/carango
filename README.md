@@ -8,6 +8,14 @@ This command will start the webpack and serve the app on [localhost:3000](http:/
 npm run start
 ```
 
+## Run the API mock
+
+If you want to submit the form, you should also run the API. It's served via [`json-server`](https://github.com/typicode/json-server).
+
+```
+npm run api
+```
+
 ## Run the tests
 
 ```
