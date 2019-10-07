@@ -4,9 +4,26 @@ import Win from "./Win";
 import Lose from "./Lose";
 import Default from "./Default";
 
-export default ({ screen }) => {
+const PromotionScreen = ({
+  screen,
+  formState,
+  shouldBlockFormSubmission,
+  handleInputChange,
+  handleInputBlur,
+  handleSubmit
+}) => {
   if (screen === "win") return <Win />;
   if (screen === "lose") return <Lose />;
 
-  return <Default />;
+  return (
+    <Default
+      formState={formState}
+      shouldBlockFormSubmission={shouldBlockFormSubmission}
+      handleInputChange={handleInputChange}
+      handleInputBlur={handleInputBlur}
+      handleSubmit={handleSubmit}
+    />
+  );
 };
+
+export default PromotionScreen;

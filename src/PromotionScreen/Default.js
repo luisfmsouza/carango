@@ -5,7 +5,13 @@ import Header from "../components/Header";
 
 import { Page, Main, Column, Title, Paragraph } from "./styled";
 
-export default () => {
+export default ({
+  formState,
+  shouldBlockFormSubmission,
+  handleInputChange,
+  handleInputBlur,
+  handleSubmit
+}) => {
   return (
     <Page>
       <Header />
@@ -32,7 +38,13 @@ export default () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat
             eros, finibus ac ullamcorper sit amet, tempus quis lacus.
           </Paragraph>
-          <Form />
+          <Form
+            formState={formState}
+            shouldBlockFormSubmission={shouldBlockFormSubmission}
+            handleInputChange={handleInputChange}
+            handleInputBlur={handleInputBlur}
+            handleSubmit={handleSubmit}
+          />
         </Column>
       </Main>
     </Page>
