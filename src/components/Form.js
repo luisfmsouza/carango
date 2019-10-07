@@ -2,10 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { ReactComponent as IconRight } from "../assets/icons/arrow-right.svg";
-
 import colors from "../theme/colors";
-
-const Form = styled.form``;
 
 const Column = styled.div`
   display: grid;
@@ -154,6 +151,10 @@ const Button = styled.button`
   margin-top: 30px;
   padding: 18px 25px 18px 35px;
   text-transform: uppercase;
+
+  &:disabled {
+    background: linear-gradient(to right, ${colors.grey10}, ${colors.grey15});
+  }
 `;
 
 const ButtonText = styled.span`
@@ -167,96 +168,135 @@ const StyledIconRight = styled(IconRight)`
   width: 15px;
 `;
 
-export default ({ hasError }) => (
-  <Form>
+export default ({
+  formState,
+  shouldBlockFormSubmission,
+  handleInputChange,
+  handleInputBlur,
+  handleSubmit
+}) => (
+  <form onSubmit={handleSubmit}>
     <Column>
       <Group>
-        <Label htmlFor="form--first-name" hasError={hasError}>
+        <Label htmlFor="firstName" hasError={formState.firstName.hasError}>
           First name
         </Label>
-        <InputContainer hasError={hasError}>
+        <InputContainer hasError={formState.firstName.hasError}>
           <Input
-            id="form--first-name"
+            id="firstName"
             placeholder="Enter first name"
             type="text"
-            hasError={hasError}
+            hasError={formState.firstName.hasError}
+            value={formState.firstName.value}
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
           />
         </InputContainer>
-        {hasError && <ErrorMessage>Invalid first name</ErrorMessage>}
+        {formState.firstName.hasError && (
+          <ErrorMessage>Invalid first name</ErrorMessage>
+        )}
       </Group>
 
       <Group>
-        <Label htmlFor="form--surname" hasError={hasError}>
+        <Label htmlFor="surname" hasError={formState.surname.hasError}>
           Surname
         </Label>
-        <InputContainer hasError={hasError}>
+        <InputContainer hasError={formState.surname.hasError}>
           <Input
-            id="form--surname"
+            id="surname"
             placeholder="Enter surname"
             type="text"
-            hasError={hasError}
+            hasError={formState.surname.hasError}
+            value={formState.surname.value}
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
           />
         </InputContainer>
-        {hasError && <ErrorMessage>Invalid surname</ErrorMessage>}
+        {formState.surname.hasError && (
+          <ErrorMessage>Invalid surname</ErrorMessage>
+        )}
       </Group>
     </Column>
 
     <Group>
-      <Label htmlFor="form--email" hasError={hasError}>
+      <Label htmlFor="email" hasError={formState.email.hasError}>
         Email address
       </Label>
-      <InputContainer hasError={hasError}>
+      <InputContainer hasError={formState.email.hasError}>
         <Input
-          id="form--email"
+          id="email"
           placeholder="Enter your email address"
           type="email"
-          hasError={hasError}
+          hasError={formState.email.hasError}
+          value={formState.email.value}
+          onChange={handleInputChange}
+          onBlur={handleInputBlur}
         />
       </InputContainer>
-      {hasError && <ErrorMessage>Invalid email address</ErrorMessage>}
+      {formState.email.hasError && (
+        <ErrorMessage>Invalid email address</ErrorMessage>
+      )}
     </Group>
 
     <Group>
-      <Label htmlFor="form--phone" hasError={hasError}>
+      <Label htmlFor="phoneNumber" hasError={formState.phoneNumber.hasError}>
         Phone number
       </Label>
-      <InputContainer hasError={hasError}>
+      <InputContainer hasError={formState.phoneNumber.hasError}>
         <Input
-          id="form--phone"
+          id="phoneNumber"
           placeholder="Enter your phone number"
           type="tel"
-          hasError={hasError}
+          hasError={formState.phoneNumber.hasError}
+          value={formState.phoneNumber.value}
+          onChange={handleInputChange}
+          onBlur={handleInputBlur}
         />
       </InputContainer>
-      {hasError && <ErrorMessage>Invalid phone number</ErrorMessage>}
+      {formState.phoneNumber.hasError && (
+        <ErrorMessage>Invalid phone number</ErrorMessage>
+      )}
     </Group>
 
     <Group>
-      <Label htmlFor="form--voucher" hasError={hasError}>
+      <Label htmlFor="voucherCode" hasError={formState.voucherCode.hasError}>
         Voucher code
       </Label>
-      <InputContainer hasError={hasError}>
+      <InputContainer hasError={formState.voucherCode.hasError}>
         <Input
-          id="form--voucher"
+          id="voucherCode"
           placeholder="Enter your voucher code"
           type="number"
-          hasError={hasError}
+          hasError={formState.voucherCode.hasError}
+          value={formState.voucherCode.value}
+          onChange={handleInputChange}
+          onBlur={handleInputBlur}
         />
       </InputContainer>
-      {hasError && <ErrorMessage>Invalid voucher code</ErrorMessage>}
+      {formState.voucherCode.hasError && (
+        <ErrorMessage>Invalid voucher code</ErrorMessage>
+      )}
     </Group>
 
     <Group>
-      <CheckboxInput id="form--policy" type="checkbox" />
-      <CheckboxShape hasError={hasError} />
-      <CheckboxLabel htmlFor="form--policy" hasError={hasError}>
+      <CheckboxInput
+        id="acceptPrivacy"
+        type="checkbox"
+        checked={formState.acceptPrivacy.value}
+        onChange={handleInputChange}
+      />
+      <CheckboxShape hasError={formState.acceptPrivacy.hasError} />
+      <CheckboxLabel
+        htmlFor="acceptPrivacy"
+        hasError={formState.acceptPrivacy.hasError}
+      >
         Accept Privacy Settlement
       </CheckboxLabel>
     </Group>
 
-    <Button type="submit">
+    <Button type="submit" disabled={shouldBlockFormSubmission}>
       <ButtonText>Get Offer</ButtonText>
       <StyledIconRight />
     </Button>
-  </Form>
+  </form>
 );

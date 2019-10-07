@@ -1,142 +1,147 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Form renders the Form component 1`] = `
-<form
-  className="sc-bdVaJa bDWFJH"
->
+exports[`Form renders component with default state 1`] = `
+<form>
   <div
-    className="sc-bwzfXH dckAAz"
+    className="sc-bdVaJa ktgugz"
   >
     <div
-      className="sc-htpNat eRDnou"
+      className="sc-bwzfXH kOhaJW"
     >
       <label
-        className="sc-bxivhb kgdeGf"
-        htmlFor="form--first-name"
+        className="sc-htpNat BFdPN"
+        htmlFor="firstName"
       >
         First name
       </label>
       <div
-        className="sc-ifAKCX bcdHbI"
+        className="sc-bxivhb bxWlrO"
       >
         <input
-          className="sc-EHOje btOswH"
-          id="form--first-name"
+          className="sc-ifAKCX hZfyrg"
+          id="firstName"
           placeholder="Enter first name"
           type="text"
+          value=""
         />
       </div>
     </div>
     <div
-      className="sc-htpNat eRDnou"
+      className="sc-bwzfXH kOhaJW"
     >
       <label
-        className="sc-bxivhb kgdeGf"
-        htmlFor="form--surname"
+        className="sc-htpNat BFdPN"
+        htmlFor="surname"
       >
         Surname
       </label>
       <div
-        className="sc-ifAKCX bcdHbI"
+        className="sc-bxivhb bxWlrO"
       >
         <input
-          className="sc-EHOje btOswH"
-          id="form--surname"
+          className="sc-ifAKCX hZfyrg"
+          id="surname"
           placeholder="Enter surname"
           type="text"
+          value=""
         />
       </div>
     </div>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <label
-      className="sc-bxivhb kgdeGf"
-      htmlFor="form--email"
+      className="sc-htpNat BFdPN"
+      htmlFor="email"
     >
       Email address
     </label>
     <div
-      className="sc-ifAKCX bcdHbI"
+      className="sc-bxivhb bxWlrO"
     >
       <input
-        className="sc-EHOje btOswH"
-        id="form--email"
+        className="sc-ifAKCX hZfyrg"
+        id="email"
         placeholder="Enter your email address"
         type="email"
+        value=""
       />
     </div>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <label
-      className="sc-bxivhb kgdeGf"
-      htmlFor="form--phone"
+      className="sc-htpNat BFdPN"
+      htmlFor="phoneNumber"
     >
       Phone number
     </label>
     <div
-      className="sc-ifAKCX bcdHbI"
+      className="sc-bxivhb bxWlrO"
     >
       <input
-        className="sc-EHOje btOswH"
-        id="form--phone"
+        className="sc-ifAKCX hZfyrg"
+        id="phoneNumber"
         placeholder="Enter your phone number"
         type="tel"
+        value=""
       />
     </div>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <label
-      className="sc-bxivhb kgdeGf"
-      htmlFor="form--voucher"
+      className="sc-htpNat BFdPN"
+      htmlFor="voucherCode"
     >
       Voucher code
     </label>
     <div
-      className="sc-ifAKCX bcdHbI"
+      className="sc-bxivhb bxWlrO"
     >
       <input
-        className="sc-EHOje btOswH"
-        id="form--voucher"
+        className="sc-ifAKCX hZfyrg"
+        id="voucherCode"
         placeholder="Enter your voucher code"
         type="number"
+        value=""
       />
     </div>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <input
-      className="sc-htoDjs jtEFYT"
-      id="form--policy"
+      checked={false}
+      className="sc-gzVnrw fGxjqS"
+      id="acceptPrivacy"
       type="checkbox"
     />
     <span
-      className="sc-dnqmqq dBKiXt"
+      className="sc-htoDjs kdQguC"
     />
     <label
-      className="sc-gzVnrw krUXAY"
-      htmlFor="form--policy"
+      className="sc-bZQynM dBpAAU"
+      htmlFor="acceptPrivacy"
     >
       Accept Privacy Settlement
     </label>
   </div>
   <button
-    className="sc-iwsKbI dWNEbR"
+    className="sc-dnqmqq dqwUDQ"
+    disabled={false}
     type="submit"
   >
     <span
-      className="sc-gZMcBi dKOCRF"
+      className="sc-iwsKbI jeHUaD"
     >
       Get Offer
     </span>
     <svg
-      className="sc-gqjmRU fPOneR"
+      className="sc-gZMcBi fspjKn"
     >
       arrow-right.svg
     </svg>
@@ -144,168 +149,322 @@ exports[`Form renders the Form component 1`] = `
 </form>
 `;
 
-exports[`Form renders the Form component when has error 1`] = `
-<form
-  className="sc-bdVaJa bDWFJH"
->
+exports[`Form renders component with disabled submit button 1`] = `
+<form>
   <div
-    className="sc-bwzfXH dckAAz"
+    className="sc-bdVaJa ktgugz"
   >
     <div
-      className="sc-htpNat eRDnou"
+      className="sc-bwzfXH kOhaJW"
     >
       <label
-        className="sc-bxivhb jjexRw"
-        htmlFor="form--first-name"
+        className="sc-htpNat BFdPN"
+        htmlFor="firstName"
       >
         First name
       </label>
       <div
-        className="sc-ifAKCX hAdtJO"
+        className="sc-bxivhb bxWlrO"
       >
         <input
-          className="sc-EHOje btOswH"
-          id="form--first-name"
+          className="sc-ifAKCX hZfyrg"
+          id="firstName"
           placeholder="Enter first name"
           type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-bwzfXH kOhaJW"
+    >
+      <label
+        className="sc-htpNat BFdPN"
+        htmlFor="surname"
+      >
+        Surname
+      </label>
+      <div
+        className="sc-bxivhb bxWlrO"
+      >
+        <input
+          className="sc-ifAKCX hZfyrg"
+          id="surname"
+          placeholder="Enter surname"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH kOhaJW"
+  >
+    <label
+      className="sc-htpNat BFdPN"
+      htmlFor="email"
+    >
+      Email address
+    </label>
+    <div
+      className="sc-bxivhb bxWlrO"
+    >
+      <input
+        className="sc-ifAKCX hZfyrg"
+        id="email"
+        placeholder="Enter your email address"
+        type="email"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH kOhaJW"
+  >
+    <label
+      className="sc-htpNat BFdPN"
+      htmlFor="phoneNumber"
+    >
+      Phone number
+    </label>
+    <div
+      className="sc-bxivhb bxWlrO"
+    >
+      <input
+        className="sc-ifAKCX hZfyrg"
+        id="phoneNumber"
+        placeholder="Enter your phone number"
+        type="tel"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH kOhaJW"
+  >
+    <label
+      className="sc-htpNat BFdPN"
+      htmlFor="voucherCode"
+    >
+      Voucher code
+    </label>
+    <div
+      className="sc-bxivhb bxWlrO"
+    >
+      <input
+        className="sc-ifAKCX hZfyrg"
+        id="voucherCode"
+        placeholder="Enter your voucher code"
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH kOhaJW"
+  >
+    <input
+      checked={false}
+      className="sc-gzVnrw fGxjqS"
+      id="acceptPrivacy"
+      type="checkbox"
+    />
+    <span
+      className="sc-htoDjs kdQguC"
+    />
+    <label
+      className="sc-bZQynM dBpAAU"
+      htmlFor="acceptPrivacy"
+    >
+      Accept Privacy Settlement
+    </label>
+  </div>
+  <button
+    className="sc-dnqmqq dqwUDQ"
+    disabled={true}
+    type="submit"
+  >
+    <span
+      className="sc-iwsKbI jeHUaD"
+    >
+      Get Offer
+    </span>
+    <svg
+      className="sc-gZMcBi fspjKn"
+    >
+      arrow-right.svg
+    </svg>
+  </button>
+</form>
+`;
+
+exports[`Form renders component with error message 1`] = `
+<form>
+  <div
+    className="sc-bdVaJa ktgugz"
+  >
+    <div
+      className="sc-bwzfXH kOhaJW"
+    >
+      <label
+        className="sc-htpNat gPdFIw"
+        htmlFor="firstName"
+      >
+        First name
+      </label>
+      <div
+        className="sc-bxivhb iYySRi"
+      >
+        <input
+          className="sc-ifAKCX hZfyrg"
+          id="firstName"
+          placeholder="Enter first name"
+          type="text"
+          value=""
         />
       </div>
       <span
-        className="sc-bZQynM hzFBlF"
+        className="sc-EHOje cgozCC"
       >
         Invalid first name
       </span>
     </div>
     <div
-      className="sc-htpNat eRDnou"
+      className="sc-bwzfXH kOhaJW"
     >
       <label
-        className="sc-bxivhb jjexRw"
-        htmlFor="form--surname"
+        className="sc-htpNat gPdFIw"
+        htmlFor="surname"
       >
         Surname
       </label>
       <div
-        className="sc-ifAKCX hAdtJO"
+        className="sc-bxivhb iYySRi"
       >
         <input
-          className="sc-EHOje btOswH"
-          id="form--surname"
+          className="sc-ifAKCX hZfyrg"
+          id="surname"
           placeholder="Enter surname"
           type="text"
+          value=""
         />
       </div>
       <span
-        className="sc-bZQynM hzFBlF"
+        className="sc-EHOje cgozCC"
       >
         Invalid surname
       </span>
     </div>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <label
-      className="sc-bxivhb jjexRw"
-      htmlFor="form--email"
+      className="sc-htpNat gPdFIw"
+      htmlFor="email"
     >
       Email address
     </label>
     <div
-      className="sc-ifAKCX hAdtJO"
+      className="sc-bxivhb iYySRi"
     >
       <input
-        className="sc-EHOje btOswH"
-        id="form--email"
+        className="sc-ifAKCX hZfyrg"
+        id="email"
         placeholder="Enter your email address"
         type="email"
+        value=""
       />
     </div>
     <span
-      className="sc-bZQynM hzFBlF"
+      className="sc-EHOje cgozCC"
     >
       Invalid email address
     </span>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <label
-      className="sc-bxivhb jjexRw"
-      htmlFor="form--phone"
+      className="sc-htpNat gPdFIw"
+      htmlFor="phoneNumber"
     >
       Phone number
     </label>
     <div
-      className="sc-ifAKCX hAdtJO"
+      className="sc-bxivhb iYySRi"
     >
       <input
-        className="sc-EHOje btOswH"
-        id="form--phone"
+        className="sc-ifAKCX hZfyrg"
+        id="phoneNumber"
         placeholder="Enter your phone number"
         type="tel"
+        value=""
       />
     </div>
     <span
-      className="sc-bZQynM hzFBlF"
+      className="sc-EHOje cgozCC"
     >
       Invalid phone number
     </span>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <label
-      className="sc-bxivhb jjexRw"
-      htmlFor="form--voucher"
+      className="sc-htpNat gPdFIw"
+      htmlFor="voucherCode"
     >
       Voucher code
     </label>
     <div
-      className="sc-ifAKCX hAdtJO"
+      className="sc-bxivhb iYySRi"
     >
       <input
-        className="sc-EHOje btOswH"
-        id="form--voucher"
+        className="sc-ifAKCX hZfyrg"
+        id="voucherCode"
         placeholder="Enter your voucher code"
         type="number"
+        value=""
       />
     </div>
     <span
-      className="sc-bZQynM hzFBlF"
+      className="sc-EHOje cgozCC"
     >
       Invalid voucher code
     </span>
   </div>
   <div
-    className="sc-htpNat eRDnou"
+    className="sc-bwzfXH kOhaJW"
   >
     <input
-      className="sc-htoDjs jtEFYT"
-      id="form--policy"
+      checked={false}
+      className="sc-gzVnrw fGxjqS"
+      id="acceptPrivacy"
       type="checkbox"
     />
     <span
-      className="sc-dnqmqq eXgceN"
+      className="sc-htoDjs gUiEwb"
     />
     <label
-      className="sc-gzVnrw gpBFas"
-      htmlFor="form--policy"
+      className="sc-bZQynM bchkUQ"
+      htmlFor="acceptPrivacy"
     >
       Accept Privacy Settlement
     </label>
   </div>
   <button
-    className="sc-iwsKbI dWNEbR"
+    className="sc-dnqmqq dqwUDQ"
+    disabled={true}
     type="submit"
   >
     <span
-      className="sc-gZMcBi dKOCRF"
+      className="sc-iwsKbI jeHUaD"
     >
       Get Offer
     </span>
     <svg
-      className="sc-gqjmRU fPOneR"
+      className="sc-gZMcBi fspjKn"
     >
       arrow-right.svg
     </svg>
